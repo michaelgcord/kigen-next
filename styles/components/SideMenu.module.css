@@ -1,0 +1,29 @@
+.sidemenu_container {
+    left: 12.2%;
+    position: fixed;
+    width: 12.8%;
+    border-radius: 4px;
+    background-color: #e7e6e1;
+    margin-top: 8px;
+    transition: height .2s ease-in-out;
+}
+
+.dropdown_container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.button_container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.button_base {
+    font-size: 1rem;
+    padding: 8px 0;
+    background-color: white;
+    border-radius: 4px;
+    color: #958e97;
+    width: 100%;
+}

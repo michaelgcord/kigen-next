@@ -1,0 +1,58 @@
+.imagelist_container {
+  height: auto;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.imagelist {
+    height: auto;
+    padding: 8px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.item_fade {
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.item_hover_container {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item_text_color {
+  color: white;
+}
+
+.button_container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.button_base {
+    font-size: 1rem;
+    padding: 8px 0;
+    background-color: white;
+    border-radius: 4px;
+    color: #958e97;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.genre_input_container {
+    padding: 2px 5px 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    /* margin: 10px auto 0; */
+}
+
+.input_base {
+    margin-left: 1px;
+    flex: 1;
+}
+
+.divider {
+    height: 28px;
+    margin: 4px;
+}
+
+.icon_color {
+    color: #958e97;
+}
+
+.filler {
+    width: 100%;
+}
+
+.dropdown_container {
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+    margin: 0 auto;
+    transition: height .2s ease-in-out;
+}
+
+.list_container {
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+}
+
+.list_item {
+    flex-grow: 1;
+    padding-left: 13px;
+    color: #958e97;
+}
+
+.checkcircle_container {
+    padding-right: 10px;
+}
+
+.checkcircle_color {
+    color: #21b6ae;
+}
