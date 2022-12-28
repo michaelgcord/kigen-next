@@ -40,7 +40,19 @@ const SideMenu = ({onGenerate}:SideMenuProps) => {
                     <GenreDropdownMenu onOpen={handleOpen} onSelectChange={handleSelectChange}/>
                 </div>
                 <div className={styles.button_container}>
-                    <ButtonBase className={styles.button_base } onClick={generate}>Generate</ButtonBase>
+                    <ButtonBase 
+                        style={{
+                            fontSize: '1rem',
+                            padding: '8px 0',
+                            backgroundColor: 'white',
+                            borderRadius: '4px',
+                            color: '#958e97',
+                            width: '100%',
+                        }}
+                        className={styles.button_base } 
+                        onClick={generate}>
+                            Generate
+                    </ButtonBase>
                 </div>                
             </div>
         </div>

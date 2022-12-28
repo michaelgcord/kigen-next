@@ -57,6 +57,7 @@ const ImageContent = ({imageList}:any) => {
     return (
         <div className={styles.imagelist_container}>
             <ImageList
+                style={{ padding: '8px' }}
                 className={styles.imagelist}
                 sx={{ width: isDesktop ? '50%' : isTablet ? '75%' : '100%' }} 
                 cols={isDesktop ? 4 : isTablet ? 3 : 2}

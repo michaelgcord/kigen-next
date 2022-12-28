@@ -87,6 +87,7 @@ const GenreContainer = ({onOpen, onSelectChange}: GenreContainerProps) => {
             <Paper
                 elevation={0}
                 className={styles.dropdown_container}
+                style={{ transition: 'height .2s ease-in-out' }}
                 sx={{height: open ? '150px' : '0px'}}
                 >
                 {genresArr.map((e, index) => {

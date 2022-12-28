@@ -48,7 +48,11 @@ const Login = () => {
                         </div>
                     </Box>
                     <Button 
-                        className={styles.button}
+                        // className={styles.button}
+                        style={{
+                          marginTop: '45px',
+                          backgroundColor: '#bd0029',
+                        }}
                         onClick={explore}
                         size="large" 
                         variant="contained">
