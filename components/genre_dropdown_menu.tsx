@@ -46,11 +46,7 @@ const GenreContainer = ({onOpen, onSelectChange}: GenreContainerProps) => {
         {
             genre: 'Sports',
             toggle: false,
-        },
-        {
-            genre: 'Thriller',
-            toggle: false,
-        },                     
+        },               
     ]);
 
     const toggleOpen = () => {
